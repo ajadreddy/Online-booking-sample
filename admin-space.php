@@ -1,7 +1,5 @@
 <?php include 'config.php'; ?>
-<?php 
-include 'navbar.php'; 
-?> 
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +15,10 @@ include 'navbar.php';
 <body >
 <!-- <h1><a href="/logout.php">Logout</a></h1> -->
 <!-- <h1><a href="index.php">Return home</a></h1> -->
-<h1 style="margin:50px;">List of orders</h1>
+<div style="margin:50px;">
+  <h1 >List of orders</h1>
+  <p><a href="logout.php">Logout for home</a></p>
+</div>
 <table class="table" style="margin:50px;">
   <thead class="thead-dark">
     <tr>
