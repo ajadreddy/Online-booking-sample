@@ -25,7 +25,7 @@ include 'navbar.php';
             ':uname' => $name,
             ':uservice' => $service,
            ]);
-  
+           echo "<meta http-equiv='refresh' content='0'>";
         }
       }
 
