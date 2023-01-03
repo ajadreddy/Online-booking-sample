@@ -34,6 +34,8 @@
         </li> -->
         
         <?php if(!isset($_SESSION['username'])) : ?>
+          
+
           <li class="nav-item">
             <a class="nav-link" href="admin-form.php">Admin</a>
           </li>
