@@ -1,4 +1,10 @@
 <?php 
+
+  session_start();
+
+
+?>
+<?php 
 include 'navbar.php'; 
 ?> 
 <?php 

@@ -1,3 +1,9 @@
+<?php 
+
+  session_start();
+
+
+?>
 <?php include 'config.php'; ?>
 
 
@@ -15,6 +21,12 @@
 <body >
 <!-- <h1><a href="/logout.php">Logout</a></h1> -->
 <!-- <h1><a href="index.php">Return home</a></h1> -->
+
+<?php if(!isset($_SESSION["username"])) : ?>
+  <h2>
+    This page is restricted to bitches like you
+  </h2>
+<?php else : ?>
 <div style="margin:50px;">
   <h1 >List of orders</h1>
   <p><a href="logout.php">Logout for home</a></p>
@@ -78,5 +90,7 @@
 
   </tbody>
 </table>
+<?php endif;?>
+
 </body>
 </html>
