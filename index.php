@@ -64,7 +64,7 @@ include 'navbar.php';
             </div>
             <div class="mt-2">
               <button name="submit" type="submit" class="btn btn-light" onclick="myFunc()">Book</button>
-              <p id="book-btn" ></p>
+              <!-- <p id="book-btn" ></p> -->
             </div>
         </form>
     </div>
