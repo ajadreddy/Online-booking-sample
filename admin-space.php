@@ -41,7 +41,7 @@
 <table class="table" style="margin:50px;">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">S.No</th>
       <th scope="col">Name</th>
       <th scope="col">Contact Number</th>
       <th scope="col">Email</th>
