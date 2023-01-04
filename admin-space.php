@@ -23,9 +23,16 @@
 <!-- <h1><a href="index.php">Return home</a></h1> -->
 
 <?php if(!isset($_SESSION["username"])) : ?>
-  <h2>
-    This page is restricted to bitches like you
-  </h2>
+  <div class="d-flex align-items-center justify-content-center vh-100">
+    <div class="text-center">
+        <h1 class="display-1 fw-bold">404</h1>
+        <p class="fs-3"> <span class="text-danger">Oops!</span> Page not found.</p>
+        <p class="lead">
+            The page you’re looking for doesn’t exist.
+          </p>
+        <a href="index.php" class="btn btn-dark">Go Home</a>
+    </div>
+  </div>
 <?php else : ?>
 <div style="margin:50px;">
   <h1 >List of orders</h1>
