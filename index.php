@@ -74,7 +74,7 @@ include 'navbar.php';
 <script>
   function myFunc(id)
   {
-    alert("Booking done");
+    alert("Booking done..We will contact you soon!");
     // document.getElementById("book-btn").innerHTML="Booking Done..Our team will contact you shortly!!"
   }
 </script>
